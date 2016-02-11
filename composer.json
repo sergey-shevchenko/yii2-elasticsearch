@@ -19,7 +19,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "elasticsearch/elasticsearch": "~2.0"
     },
     "autoload": {
         "psr-4": { "yii\\elasticsearch\\": "" }

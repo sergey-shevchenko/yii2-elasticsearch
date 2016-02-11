@@ -320,6 +320,7 @@ class ActiveRecord extends BaseActiveRecord
         $attributes = [];
         if (isset($row['_source'])) {
             $attributes = $row['_source'];
+            $attributes['_id'] = $row['_id'];
         }
         if (isset($row['fields'])) {
             // reset fields in case it is scalar value
